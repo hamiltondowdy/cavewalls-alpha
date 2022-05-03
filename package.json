@@ -1,10 +1,8 @@
 {
-  "devDependencies": {
-    "concurrently": "^7.1.0"
-  },
-  "name": "cavewalls-alpha",
+  "name": "mern-social-media",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
@@ -12,15 +10,10 @@
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hamiltondowdy/cavewalls-alpha.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hamiltondowdy/cavewalls-alpha/issues"
-  },
-  "homepage": "https://github.com/hamiltondowdy/cavewalls-alpha#readme",
-  "description": ""
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
 }
