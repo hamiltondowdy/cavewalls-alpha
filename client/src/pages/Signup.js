@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { ADD_USER } from '../utils/mutations';
-
+import { Button } from 'react-bootstrap';
 import Auth from '../utils/auth';
 
 const Signup = () => {
@@ -71,9 +71,9 @@ const Signup = () => {
                 value={formState.password}
                 onChange={handleChange}
               />
-              <button className="btn d-block w-100" type="submit">
+              <Button className="btn d-block w-100" type="submit">
                 Submit
-              </button>
+              </Button>
             </form>
 
             {error && <div>Signup failed</div>}
