@@ -1,7 +1,6 @@
 #nav {
-    background-color: black;
+  opacity: .8;
 }
-
 .menu {
     height: 0;
     width: fit-content;
